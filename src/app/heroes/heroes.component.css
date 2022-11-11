@@ -8,9 +8,10 @@
 
 .heroes li {
   display: flex;
+  align-items: center;
 }
 
-.heroes button {
+.heroes a {
   flex: 1;
   cursor: pointer;
   position: relative;
@@ -20,32 +21,37 @@
   padding: 0;
   border-radius: 4px;
   display: flex;
-  align-items: stretch;
-  height: 1.8em;
+  align-items: center;
+  height: 30px;
+  text-decoration: none;
 }
 
-.heroes button:hover {
+.heroes button{
+  height: 30px;
+}
+
+.heroes a:hover {
   color: #2c3a41;
   background-color: #e6e6e6;
   left: .1em;
 }
 
-.heroes button:active {
+.heroes a:active {
   background-color: #525252;
   color: #fafafa;
 }
 
-.heroes button.selected {
+.heroes a.selected {
   background-color: black;
   color: white;
 }
 
-.heroes button.selected:hover {
+.heroes a.selected:hover {
   background-color: #505050;
   color: white;
 }
 
-.heroes button.selected:active {
+.heroes a.selected:active {
   background-color: black;
   color: white;
 }
@@ -59,6 +65,7 @@
   line-height: 1em;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
+  height: 100%;
 }
 
 .heroes .name {
