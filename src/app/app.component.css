@@ -1,0 +1,13 @@
+.menu-item{
+  font-size: 20px;
+  color: blue;
+  display: inline-block;
+}
+.header{
+  width: 60px;
+  display: flex;
+}
+.hero-page{
+  padding-right: 10px;
+}
+

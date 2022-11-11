@@ -1,2 +1,7 @@
-<input type="text" [(ngModel)]="name">
-<p>{{name}}</p>
+<header class="header">
+  <a class="hero-page menu-item"routerLink="/heroes">Heroes</a>
+  <a class="dashboard menu-item" routerLink="/dashboard">Dashboard</a>
+</header>
+<app-hero-form></app-hero-form>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
